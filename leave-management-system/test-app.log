@@ -1,0 +1,1827 @@
+2026-09-06 16:41:29 - Starting DepartmentServiceIntegrationTest using Java 22.0.2 with PID 15220 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 16:41:29 - The following 1 profile is active: "test"
+2026-09-06 16:41:29 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6726cc69
+2026-09-06 16:41:30 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 16:41:31 - Finished Spring Data repository scanning in 93 ms. Found 5 JPA repository interfaces.
+2026-09-06 16:41:31 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 16:41:31 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 16:41:32 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 16:41:32 - HikariPool-1 - Starting...
+2026-09-06 16:41:32 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4745bcc6
+2026-09-06 16:41:32 - HikariPool-1 - Start completed.
+2026-09-06 16:41:32 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 16:41:32 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 16:41:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 16:41:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 16:41:34 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 16:41:34 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 16:41:34 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 16:41:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 16:41:36 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 16:41:36 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 16:41:36 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 16:41:36 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 16:41:36 - Started DepartmentServiceIntegrationTest in 7.521 seconds (process running for 9.811)
+2026-09-06 16:41:36 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 16:41:36 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 16:41:38 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6726cc69, started on Sun Sep 06 16:41:29 IST 2026
+2026-09-06 16:41:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 16:41:38 - HikariPool-1 - Shutdown initiated...
+2026-09-06 16:41:38 - HikariPool-1 - Shutdown completed.
+2026-09-06 16:45:02 - Starting DepartmentServiceIntegrationTest using Java 22.0.2 with PID 28168 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 16:45:02 - The following 1 profile is active: "test"
+2026-09-06 16:45:02 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@62e93c3a
+2026-09-06 16:45:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 16:45:03 - Finished Spring Data repository scanning in 92 ms. Found 5 JPA repository interfaces.
+2026-09-06 16:45:04 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 16:45:04 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 16:45:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 16:45:06 - HikariPool-1 - Starting...
+2026-09-06 16:45:07 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d5d77a6
+2026-09-06 16:45:07 - HikariPool-1 - Start completed.
+2026-09-06 16:45:07 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 16:45:07 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 16:45:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 16:45:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 16:45:11 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 16:45:12 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 16:45:12 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 16:45:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 16:45:17 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 16:45:17 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 16:45:17 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 16:45:17 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 16:45:18 - Started DepartmentServiceIntegrationTest in 16.863 seconds (process running for 18.931)
+2026-09-06 16:45:18 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 16:45:18 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 16:45:21 - Closing org.springframework.web.context.support.GenericWebApplicationContext@62e93c3a, started on Sun Sep 06 16:45:02 IST 2026
+2026-09-06 16:45:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 16:45:21 - HikariPool-1 - Shutdown initiated...
+2026-09-06 16:45:21 - HikariPool-1 - Shutdown completed.
+2026-09-06 16:47:52 - Starting DepartmentServiceIntegrationTest using Java 22.0.2 with PID 10888 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 16:47:52 - The following 1 profile is active: "test"
+2026-09-06 16:47:52 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@62e93c3a
+2026-09-06 16:47:53 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 16:47:53 - Finished Spring Data repository scanning in 70 ms. Found 5 JPA repository interfaces.
+2026-09-06 16:47:54 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 16:47:54 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 16:47:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 16:47:55 - HikariPool-1 - Starting...
+2026-09-06 16:47:55 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53dbe7b2
+2026-09-06 16:47:55 - HikariPool-1 - Start completed.
+2026-09-06 16:47:55 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 16:47:55 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 16:47:56 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 16:47:56 - HHH000247: ErrorCode: 0, SQLState: 00000
+2026-09-06 16:47:56 - constraint "ukmpps3d3r9pdvyjx3iqixi96fi" of relation "employee" does not exist, skipping
+2026-09-06 16:47:56 - HHH000247: ErrorCode: 0, SQLState: 00000
+2026-09-06 16:47:56 - constraint "uk6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2026-09-06 16:47:56 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 16:47:56 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 16:47:57 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 16:47:57 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 16:47:58 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 16:47:59 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 16:47:59 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 16:47:59 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 16:47:59 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 16:47:59 - Started DepartmentServiceIntegrationTest in 7.858 seconds (process running for 9.796)
+2026-09-06 16:47:59 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 16:47:59 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 16:48:01 - Closing org.springframework.web.context.support.GenericWebApplicationContext@62e93c3a, started on Sun Sep 06 16:47:52 IST 2026
+2026-09-06 16:48:01 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 16:48:01 - HikariPool-1 - Shutdown initiated...
+2026-09-06 16:48:01 - HikariPool-1 - Shutdown completed.
+2026-09-06 17:02:15 - Starting UserServiceIntegrationTest using Java 22.0.2 with PID 28588 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:02:15 - The following 1 profile is active: "test"
+2026-09-06 17:02:15 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@69d667a5
+2026-09-06 17:02:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:02:16 - Finished Spring Data repository scanning in 71 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:02:16 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:02:17 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:02:17 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:02:17 - HikariPool-1 - Starting...
+2026-09-06 17:02:17 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f2bf80d
+2026-09-06 17:02:17 - HikariPool-1 - Start completed.
+2026-09-06 17:02:17 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:02:17 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:02:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:02:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:02:19 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:02:19 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:02:19 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:02:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:02:20 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:02:21 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:02:21 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:02:21 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:02:21 - Started UserServiceIntegrationTest in 6.61 seconds (process running for 12.893)
+2026-09-06 17:02:21 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:02:21 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:02:22 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:02:22 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:02:22 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:02:22 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:02:23 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:02:23 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:02:23 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:02:23 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:02:23 - Restart disabled due to context in which it is running
+2026-09-06 17:03:04 - Starting EmployeeServiceIntegrationTest using Java 22.0.2 with PID 23292 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:03:04 - The following 1 profile is active: "test"
+2026-09-06 17:03:04 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@f951a7f
+2026-09-06 17:03:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:03:06 - Finished Spring Data repository scanning in 92 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:03:06 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:03:06 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:03:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:03:07 - HikariPool-1 - Starting...
+2026-09-06 17:03:07 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a0ee80
+2026-09-06 17:03:07 - HikariPool-1 - Start completed.
+2026-09-06 17:03:07 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:03:07 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:03:09 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:03:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:03:09 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:03:09 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:03:09 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:03:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:03:11 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:03:11 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:03:11 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:03:11 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:03:12 - Started EmployeeServiceIntegrationTest in 7.98 seconds (process running for 9.731)
+2026-09-06 17:03:12 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:03:12 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:13 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:03:13 - Closing org.springframework.web.context.support.GenericWebApplicationContext@f951a7f, started on Sun Sep 06 17:03:04 IST 2026
+2026-09-06 17:03:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:03:13 - HikariPool-1 - Shutdown initiated...
+2026-09-06 17:03:13 - HikariPool-1 - Shutdown completed.
+2026-09-06 17:03:27 - Starting DepartmentServiceIntegrationTest using Java 22.0.2 with PID 7384 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:03:27 - The following 1 profile is active: "test"
+2026-09-06 17:03:27 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@62e93c3a
+2026-09-06 17:03:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:03:28 - Finished Spring Data repository scanning in 91 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:03:29 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:03:29 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:03:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:03:29 - HikariPool-1 - Starting...
+2026-09-06 17:03:30 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71b7e9c8
+2026-09-06 17:03:30 - HikariPool-1 - Start completed.
+2026-09-06 17:03:30 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:03:30 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:03:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:03:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:03:31 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:03:32 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:03:32 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:03:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:03:34 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:03:34 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:03:34 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:03:34 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:03:34 - Started DepartmentServiceIntegrationTest in 7.724 seconds (process running for 9.499)
+2026-09-06 17:03:34 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:03:34 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:03:35 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:03:35 - Closing org.springframework.web.context.support.GenericWebApplicationContext@62e93c3a, started on Sun Sep 06 17:03:27 IST 2026
+2026-09-06 17:03:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:03:35 - HikariPool-1 - Shutdown initiated...
+2026-09-06 17:03:35 - HikariPool-1 - Shutdown completed.
+2026-09-06 17:04:34 - Starting DepartmentServiceIntegrationTest using Java 22.0.2 with PID 17028 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:04:34 - The following 1 profile is active: "test"
+2026-09-06 17:04:34 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@62e93c3a
+2026-09-06 17:04:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:04:35 - Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:04:36 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:04:36 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:04:37 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:04:37 - HikariPool-1 - Starting...
+2026-09-06 17:04:37 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50b4e7b2
+2026-09-06 17:04:37 - HikariPool-1 - Start completed.
+2026-09-06 17:04:37 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:04:37 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:04:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:04:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:04:38 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:04:39 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:04:39 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:04:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:04:40 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:04:40 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:04:40 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:04:40 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:04:41 - Started DepartmentServiceIntegrationTest in 7.128 seconds (process running for 8.888)
+2026-09-06 17:04:41 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:04:41 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:04:42 - ERROR: update or delete on table "department" violates foreign key constraint "fkbejtwvg9bxus2mffsm3swj3u9" on table "employee"
+  Detail: Key (id)=(70) is still referenced from table "employee".
+2026-09-06 17:04:42 - Closing org.springframework.web.context.support.GenericWebApplicationContext@62e93c3a, started on Sun Sep 06 17:04:34 IST 2026
+2026-09-06 17:04:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:04:42 - HikariPool-1 - Shutdown initiated...
+2026-09-06 17:04:42 - HikariPool-1 - Shutdown completed.
+2026-09-06 17:04:54 - Starting UserServiceIntegrationTest using Java 22.0.2 with PID 20096 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:04:54 - The following 1 profile is active: "test"
+2026-09-06 17:04:54 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@59371066
+2026-09-06 17:04:55 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:04:55 - Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:04:55 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:04:55 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:04:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:04:56 - HikariPool-1 - Starting...
+2026-09-06 17:04:56 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8a0a1d1
+2026-09-06 17:04:56 - HikariPool-1 - Start completed.
+2026-09-06 17:04:56 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:04:56 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:04:57 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:04:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:04:57 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:04:58 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:04:58 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:04:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:04:59 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:04:59 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:04:59 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:04:59 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:05:00 - Started UserServiceIntegrationTest in 6.693 seconds (process running for 11.286)
+2026-09-06 17:05:00 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:05:00 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(65) is still referenced from table "employee".
+2026-09-06 17:05:00 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:05:00 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:05:00 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:05:00 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:00 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:00 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:01 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:01 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:01 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:01 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:01 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:01 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:01 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:05:01 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(42) is still referenced from table "leave_request".
+2026-09-06 17:05:01 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:05:01 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:05:01 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:05:01 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:05:01 - Restart disabled due to context in which it is running
+2026-09-06 17:06:46 - Starting UserServiceIntegrationTest using Java 22.0.2 with PID 13060 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:06:46 - The following 1 profile is active: "test"
+2026-09-06 17:06:46 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@f76872f
+2026-09-06 17:06:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:06:47 - Finished Spring Data repository scanning in 124 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:06:48 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:06:48 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:06:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:06:49 - HikariPool-1 - Starting...
+2026-09-06 17:06:49 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45f32b12
+2026-09-06 17:06:49 - HikariPool-1 - Start completed.
+2026-09-06 17:06:49 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:06:49 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:06:50 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:06:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:06:51 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:06:51 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:06:51 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:06:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:06:53 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:06:53 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:06:53 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:06:53 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:06:54 - Started UserServiceIntegrationTest in 8.528 seconds (process running for 14.022)
+2026-09-06 17:06:54 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:06:54 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:54 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(101) is still referenced from table "employee".
+2026-09-06 17:06:54 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:06:55 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:06:55 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:06:55 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:06:55 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(71) is still referenced from table "leave_request".
+2026-09-06 17:06:55 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:06:55 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:06:55 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:06:55 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:06:55 - Restart disabled due to context in which it is running
+2026-09-06 17:08:12 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 15896 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:08:12 - The following 1 profile is active: "test"
+2026-09-06 17:08:12 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ed4bc
+2026-09-06 17:08:13 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:08:13 - Finished Spring Data repository scanning in 107 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:08:14 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:08:14 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:08:15 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:08:15 - HikariPool-1 - Starting...
+2026-09-06 17:08:15 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@326dbe25
+2026-09-06 17:08:15 - HikariPool-1 - Start completed.
+2026-09-06 17:08:15 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:08:15 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:08:17 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:08:17 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:08:17 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:08:17 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:08:17 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:08:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:08:19 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:08:20 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:08:20 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:08:20 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:08:20 - Started LeaveTypeServiceIntegrationTest in 8.941 seconds (process running for 11.436)
+2026-09-06 17:08:20 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:08:20 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:21 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:21 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:22 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:22 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(105) is still referenced from table "leave_request".
+2026-09-06 17:08:23 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:08:23 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:08:23 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:08:23 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(137) is still referenced from table "employee".
+2026-09-06 17:08:23 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:08:23 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:08:23 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:08:23 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:23 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:23 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:08:24 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(100) is still referenced from table "leave_request".
+2026-09-06 17:08:24 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:08:24 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:08:24 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:08:24 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:08:24 - Restart disabled due to context in which it is running
+2026-09-06 17:17:57 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 3332 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:17:57 - The following 1 profile is active: "test"
+2026-09-06 17:17:57 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7b27e8f4
+2026-09-06 17:17:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:17:58 - Finished Spring Data repository scanning in 110 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:17:59 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:17:59 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:18:00 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:18:00 - HikariPool-1 - Starting...
+2026-09-06 17:18:00 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@452e2210
+2026-09-06 17:18:00 - HikariPool-1 - Start completed.
+2026-09-06 17:18:00 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:18:00 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:18:02 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:18:02 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:18:02 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:18:02 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:18:02 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:18:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:18:05 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:18:05 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:18:05 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:18:05 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:18:05 - Started LeaveTypeServiceIntegrationTest in 9.268 seconds (process running for 11.741)
+2026-09-06 17:18:05 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:18:05 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:07 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:07 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(133) is still referenced from table "leave_request".
+2026-09-06 17:18:08 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:18:08 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:18:08 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:18:08 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:18:08 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:08 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:08 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:08 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:08 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:08 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:08 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:08 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:08 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:08 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:08 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:08 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:08 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:08 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:08 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:08 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(173) is still referenced from table "employee".
+2026-09-06 17:18:09 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:18:09 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:18:09 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:18:09 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:18:09 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(129) is still referenced from table "leave_request".
+2026-09-06 17:18:09 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:18:09 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:18:09 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:18:09 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:18:09 - Restart disabled due to context in which it is running
+2026-09-06 17:21:32 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 21316 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:21:32 - The following 1 profile is active: "test"
+2026-09-06 17:21:33 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@20d87335
+2026-09-06 17:21:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:21:34 - Finished Spring Data repository scanning in 101 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:21:35 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:21:35 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:21:36 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:21:36 - HikariPool-1 - Starting...
+2026-09-06 17:21:36 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65bb4cb9
+2026-09-06 17:21:36 - HikariPool-1 - Start completed.
+2026-09-06 17:21:36 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:21:36 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:21:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:21:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:21:38 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:21:38 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:21:38 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:21:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:21:41 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:21:41 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:21:41 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:21:41 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:21:41 - Started LeaveTypeServiceIntegrationTest in 9.382 seconds (process running for 11.98)
+2026-09-06 17:21:41 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:21:41 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:21:42 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:42 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:43 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:43 - ERROR: update or delete on table "leave_type" violates foreign key constraint "fkbsy0iudb8fxpkpoat8bjr29xl" on table "leave_request"
+  Detail: Key (id)=(161) is still referenced from table "leave_request".
+2026-09-06 17:21:44 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:21:44 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:21:44 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:21:44 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:44 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:44 - ERROR: update or delete on table "users" violates foreign key constraint "fkhal2duyxxjtadykhxos7wd3wg" on table "employee"
+  Detail: Key (id)=(209) is still referenced from table "employee".
+2026-09-06 17:21:45 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:21:45 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:21:45 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:21:45 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - HHH000247: ErrorCode: 0, SQLState: 23503
+2026-09-06 17:21:45 - ERROR: update or delete on table "employee" violates foreign key constraint "fktc4wao0ica39vusknbo96ln2w" on table "leave_request"
+  Detail: Key (id)=(158) is still referenced from table "leave_request".
+2026-09-06 17:21:45 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:21:45 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:21:45 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:21:45 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:21:45 - Restart disabled due to context in which it is running
+2026-09-06 17:26:14 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 25200 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:26:14 - The following 1 profile is active: "test"
+2026-09-06 17:26:14 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2abe9173
+2026-09-06 17:26:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:26:16 - Finished Spring Data repository scanning in 212 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:26:18 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:26:18 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:26:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:26:19 - HikariPool-1 - Starting...
+2026-09-06 17:26:19 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64829470
+2026-09-06 17:26:19 - HikariPool-1 - Start completed.
+2026-09-06 17:26:20 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:26:20 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:26:22 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:26:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:26:23 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:26:24 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:26:24 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:26:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:26:27 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:26:27 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:26:27 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:26:28 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:26:28 - Started LeaveTypeServiceIntegrationTest in 15.669 seconds (process running for 20.346)
+2026-09-06 17:26:28 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:26:28 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:30 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:30 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:31 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:31 - ERROR: relation "leave_type" does not exist
+  Position: 162
+2026-09-06 17:26:33 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:26:33 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:26:33 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:26:33 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:33 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:33 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "users" does not exist
+  Position: 173
+2026-09-06 17:26:34 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:26:34 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:26:34 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:26:34 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-09-06 17:26:34 - ERROR: relation "employee" does not exist
+  Position: 197
+2026-09-06 17:26:34 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:26:34 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:26:34 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:26:35 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:26:35 - Restart disabled due to context in which it is running
+2026-09-06 17:28:10 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 26756 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:28:10 - The following 1 profile is active: "test"
+2026-09-06 17:28:10 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@d613308
+2026-09-06 17:28:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:28:13 - Finished Spring Data repository scanning in 228 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:28:14 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:28:14 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:28:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:28:16 - HikariPool-1 - Starting...
+2026-09-06 17:28:16 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@41d53813
+2026-09-06 17:28:16 - HikariPool-1 - Start completed.
+2026-09-06 17:28:17 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:28:17 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:28:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:28:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:28:20 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:28:21 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:28:21 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:28:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:28:24 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:28:24 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:28:25 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:28:25 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:28:25 - Started LeaveTypeServiceIntegrationTest in 16.734 seconds (process running for 21.289)
+2026-09-06 17:28:25 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:28:25 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:28:31 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:28:31 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:28:31 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:28:31 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:28:34 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:28:34 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:28:34 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:28:34 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:28:35 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:28:35 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:28:35 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:28:35 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:28:35 - Restart disabled due to context in which it is running
+2026-09-06 17:36:07 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 24228 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:36:07 - The following 1 profile is active: "test"
+2026-09-06 17:36:07 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@43f9dd56
+2026-09-06 17:36:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:36:08 - Finished Spring Data repository scanning in 91 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:36:09 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:36:09 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:36:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:36:10 - HikariPool-1 - Starting...
+2026-09-06 17:36:10 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65bb4cb9
+2026-09-06 17:36:10 - HikariPool-1 - Start completed.
+2026-09-06 17:36:11 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:36:11 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:36:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:36:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:36:13 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:36:13 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:36:13 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:36:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:36:15 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:36:16 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:36:16 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:36:16 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:36:16 - Started LeaveTypeServiceIntegrationTest in 9.73 seconds (process running for 11.771)
+2026-09-06 17:36:16 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:36:16 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:36:20 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:20 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:36:20 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:20 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:36:22 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:22 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:36:22 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:22 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:36:23 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:23 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:36:23 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:23 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:36:23 - Restart disabled due to context in which it is running
+2026-09-06 17:36:39 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 12464 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:36:39 - The following 1 profile is active: "test"
+2026-09-06 17:36:39 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@a50d709
+2026-09-06 17:36:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:36:40 - Finished Spring Data repository scanning in 76 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:36:40 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:36:40 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:36:41 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:36:41 - HikariPool-1 - Starting...
+2026-09-06 17:36:41 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43a8bd35
+2026-09-06 17:36:41 - HikariPool-1 - Start completed.
+2026-09-06 17:36:41 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:36:41 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:36:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:36:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:36:43 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:36:43 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:36:43 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:36:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:36:45 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:36:45 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:36:45 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:36:45 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:36:45 - Started LeaveTypeServiceIntegrationTest in 6.699 seconds (process running for 8.457)
+2026-09-06 17:36:45 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:36:45 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:36:48 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:48 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:36:48 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:48 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:36:50 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:50 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:36:50 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:50 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:36:50 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:50 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:36:50 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:36:50 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:36:50 - Restart disabled due to context in which it is running
+2026-09-06 17:39:20 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 21068 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:39:20 - The following 1 profile is active: "test"
+2026-09-06 17:39:20 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1886991b
+2026-09-06 17:39:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:39:21 - Finished Spring Data repository scanning in 73 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:39:21 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:39:21 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:39:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:39:22 - HikariPool-1 - Starting...
+2026-09-06 17:39:22 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@226e95e9
+2026-09-06 17:39:22 - HikariPool-1 - Start completed.
+2026-09-06 17:39:22 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:39:22 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:39:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:39:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:39:23 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:39:24 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:39:24 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:39:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:39:25 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:39:25 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:39:25 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:39:25 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:39:26 - Started LeaveTypeServiceIntegrationTest in 6.355 seconds (process running for 8.064)
+2026-09-06 17:39:26 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:39:26 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:39:28 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:39:28 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:39:28 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:39:28 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:39:30 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:39:30 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:39:30 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:39:30 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:39:30 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:39:30 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:39:30 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:39:30 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:39:30 - Restart disabled due to context in which it is running
+2026-09-06 17:43:40 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 2932 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:43:40 - The following 1 profile is active: "test"
+2026-09-06 17:43:40 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7b27e8f4
+2026-09-06 17:43:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:43:41 - Finished Spring Data repository scanning in 80 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:43:41 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:43:41 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:43:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:43:42 - HikariPool-1 - Starting...
+2026-09-06 17:43:42 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72c1bf75
+2026-09-06 17:43:42 - HikariPool-1 - Start completed.
+2026-09-06 17:43:42 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:43:42 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:43:43 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:43:43 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:43:43 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:43:44 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:43:44 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:43:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:43:45 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:43:45 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:43:45 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:43:45 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:43:45 - Started LeaveTypeServiceIntegrationTest in 6.086 seconds (process running for 7.837)
+2026-09-06 17:43:45 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:43:45 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:43:48 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:43:48 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:43:48 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:43:48 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:43:49 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:43:49 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:43:49 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:43:49 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:43:50 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:43:50 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:43:50 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:43:50 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:43:50 - Restart disabled due to context in which it is running
+2026-09-06 17:46:51 - Starting LeaveTypeServiceIntegrationTest using Java 22.0.2 with PID 27636 (started by 308348 in C:\Users\308348\Downloads\leave-management-system\leave-management-system)
+2026-09-06 17:46:51 - The following 1 profile is active: "test"
+2026-09-06 17:46:52 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@9679750
+2026-09-06 17:46:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06 17:46:53 - Finished Spring Data repository scanning in 84 ms. Found 5 JPA repository interfaces.
+2026-09-06 17:46:53 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-06 17:46:53 - HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-09-06 17:46:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06 17:46:54 - HikariPool-1 - Starting...
+2026-09-06 17:46:54 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25c4f621
+2026-09-06 17:46:54 - HikariPool-1 - Start completed.
+2026-09-06 17:46:54 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-06 17:46:54 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leave_management_test_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leave_management_test_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-06 17:46:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06 17:46:56 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06 17:46:56 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-06 17:46:56 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-06 17:46:56 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-06 17:46:57 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-06 17:46:58 - 34 mappings in 'requestMappingHandlerMapping'
+2026-09-06 17:46:58 - Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*index.html, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*index.html, /webjars/*swagger-ui/5.32.11/*index.html, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.11/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-09-06 17:46:58 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-06 17:46:58 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-06 17:46:59 - Started LeaveTypeServiceIntegrationTest in 7.502 seconds (process running for 9.344)
+2026-09-06 17:46:59 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-06 17:46:59 - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-06 17:47:01 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:47:01 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:47:01 - Could not detect default configuration classes for test class [com.ust.lms.user.impl.UserServiceIntegrationTest]: UserServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:47:01 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.user.impl.UserServiceIntegrationTest
+2026-09-06 17:47:03 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:47:03 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:47:03 - Could not detect default configuration classes for test class [com.ust.lms.employee.impl.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:47:03 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.employee.impl.EmployeeServiceIntegrationTest
+2026-09-06 17:47:03 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:47:03 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:47:03 - Could not detect default configuration classes for test class [com.ust.lms.LeaveManagementSystemApplicationTests]: LeaveManagementSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-06 17:47:03 - Found @SpringBootConfiguration com.ust.lms.LeaveManagementSystemApplication for test class com.ust.lms.LeaveManagementSystemApplicationTests
+2026-09-06 17:47:03 - Restart disabled due to context in which it is running

@@ -1,9 +1,9 @@
-package com.ust.lms.user;
+package com.ust.lms.controller;
 
-import com.ust.lms.common.BaseController;
 import com.ust.lms.common.PageResponseDto;
 import com.ust.lms.dto.UserRequestDto;
 import com.ust.lms.dto.UserResponseDto;
+import com.ust.lms.user.UserService;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

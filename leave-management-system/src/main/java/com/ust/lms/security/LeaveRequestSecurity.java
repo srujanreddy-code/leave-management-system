@@ -1,4 +1,4 @@
-package com.ust.lms.leaverequest;
+package com.ust.lms.security;
 
 import com.ust.lms.common.Role;
 import com.ust.lms.common.exception.ResourceNotFoundException;

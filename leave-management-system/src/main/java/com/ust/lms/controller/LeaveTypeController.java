@@ -1,9 +1,9 @@
-package com.ust.lms.department;
+package com.ust.lms.controller;
 
-import com.ust.lms.common.BaseController;
 import com.ust.lms.common.PageResponseDto;
-import com.ust.lms.dto.DepartmentRequestDto;
-import com.ust.lms.dto.DepartmentResponseDto;
+import com.ust.lms.dto.LeaveTypeRequestDto;
+import com.ust.lms.dto.LeaveTypeResponseDto;
+import com.ust.lms.leavetype.LeaveTypeService;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -20,23 +20,23 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/departments")
-public class DepartmentController extends BaseController {
+@RequestMapping("/api/leave-types")
+public class LeaveTypeController extends BaseController {
 
-    private final DepartmentService departmentService;
+    private final LeaveTypeService leaveTypeService;
 
-    public DepartmentController(DepartmentService departmentService) {
-        this.departmentService = departmentService;
+    public LeaveTypeController(LeaveTypeService leaveTypeService) {
+        this.leaveTypeService = leaveTypeService;
     }
 
     @PostMapping
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<DepartmentResponseDto> create(@Valid @RequestBody DepartmentRequestDto dto) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(departmentService.create(dto));
+    public ResponseEntity<LeaveTypeResponseDto> create(@Valid @RequestBody LeaveTypeRequestDto dto) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(leaveTypeService.create(dto));
     }
 
     @GetMapping
-    public ResponseEntity<PageResponseDto<DepartmentResponseDto>> getAll(
+    public ResponseEntity<PageResponseDto<LeaveTypeResponseDto>> getAll(
             @RequestParam(defaultValue = "1") int page,
             @RequestParam(defaultValue = "10") int limit,
             @RequestParam(defaultValue = "desc") String sortDirection,
@@ -44,24 +44,24 @@ public class DepartmentController extends BaseController {
 
         int zeroBasedPage = Math.max(page - 1, 0);
         Pageable pageable = getPageable(zeroBasedPage, limit, sortDirection, sort);
-        return ResponseEntity.ok(departmentService.getAll(pageable));
+        return ResponseEntity.ok(leaveTypeService.getAll(pageable));
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<DepartmentResponseDto> getById(@PathVariable Long id) {
-        return ResponseEntity.ok(departmentService.getById(id));
+    public ResponseEntity<LeaveTypeResponseDto> getById(@PathVariable Long id) {
+        return ResponseEntity.ok(leaveTypeService.getById(id));
     }
 
     @PutMapping("/{id}")
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<DepartmentResponseDto> update(@PathVariable Long id, @Valid @RequestBody DepartmentRequestDto dto) {
-        return ResponseEntity.ok(departmentService.update(id, dto));
+    public ResponseEntity<LeaveTypeResponseDto> update(@PathVariable Long id, @Valid @RequestBody LeaveTypeRequestDto dto) {
+        return ResponseEntity.ok(leaveTypeService.update(id, dto));
     }
 
     @DeleteMapping("/{id}")
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Void> delete(@PathVariable Long id) {
-        departmentService.delete(id);
+        leaveTypeService.delete(id);
         return ResponseEntity.noContent().build();
     }
 }

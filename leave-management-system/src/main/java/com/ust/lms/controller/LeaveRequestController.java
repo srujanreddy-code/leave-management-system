@@ -1,11 +1,11 @@
-package com.ust.lms.leaverequest;
+package com.ust.lms.controller;
 
-import com.ust.lms.common.BaseController;
 import com.ust.lms.common.LeaveStatus;
 import com.ust.lms.common.PageResponseDto;
 import com.ust.lms.dto.LeaveRequestRequestDto;
 import com.ust.lms.dto.LeaveRequestResponseDto;
 import com.ust.lms.employee.EmployeeService;
+import com.ust.lms.leaverequest.LeaveRequestService;
 import com.ust.lms.security.SecurityUtils;
 import com.ust.lms.user.UserService;
 import jakarta.validation.Valid;
@@ -22,8 +22,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/leave-requests")

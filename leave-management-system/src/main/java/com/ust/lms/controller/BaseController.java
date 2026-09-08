@@ -1,4 +1,4 @@
-package com.ust.lms.common;
+package com.ust.lms.controller;
 
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

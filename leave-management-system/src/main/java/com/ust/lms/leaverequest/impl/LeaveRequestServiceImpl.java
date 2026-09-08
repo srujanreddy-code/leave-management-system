@@ -52,25 +52,42 @@ public class LeaveRequestServiceImpl extends CommonService implements LeaveReque
     @Override
     @Transactional
     public LeaveRequestResponseDto apply(LeaveRequestRequestDto dto) {
+
         Employee employee = employeeRepository.findById(dto.getEmployeeId())
                 .orElseThrow(() -> new ResourceNotFoundException("Employee not found"));
+
         LeaveType leaveType = leaveTypeRepository.findById(dto.getLeaveTypeId())
                 .orElseThrow(() -> new ResourceNotFoundException("Leave type not found"));
 
         if (dto.getStartDate().isBefore(LocalDate.now())) {
             throw new BadRequestException("Cannot apply for leave in the past");
         }
+
         if (dto.getStartDate().isAfter(dto.getEndDate())) {
             throw new BadRequestException("Start date cannot be after end date");
         }
 
-        long requestedDays = ChronoUnit.DAYS.between(dto.getStartDate(), dto.getEndDate()) + 1;
+        long requestedDays = ChronoUnit.DAYS.between(
+                dto.getStartDate(),
+                dto.getEndDate()
+        ) + 1;
+
         if (requestedDays > employee.getLeaveBalance()) {
             throw new BadRequestException("Insufficient leave balance");
         }
 
+        if (requestedDays > leaveType.getMaxDays()) {
+            throw new BadRequestException(
+                    "Requested days exceed the maximum allowed for " + leaveType.getName()
+            );
+        }
+
         List<LeaveRequest> overlapping = leaveRequestRepository.findOverlapping(
-                employee.getId(), dto.getStartDate(), dto.getEndDate());
+                employee.getId(),
+                dto.getStartDate(),
+                dto.getEndDate()
+        );
+
         if (!overlapping.isEmpty()) {
             throw new BadRequestException("Overlapping leave request exists");
         }
@@ -82,15 +99,18 @@ public class LeaveRequestServiceImpl extends CommonService implements LeaveReque
         leaveRequest.setEndDate(dto.getEndDate());
         leaveRequest.setReason(dto.getReason());
         leaveRequest.setLeaveStatus(LeaveStatus.PENDING);
+
         setAuditFields(leaveRequest, true);
 
         LeaveRequest saved = leaveRequestRepository.save(leaveRequest);
+
         return toResponseDto(saved);
     }
 
     @Override
     @Transactional
     public LeaveRequestResponseDto update(Long id, LeaveRequestRequestDto dto) {
+
         LeaveRequest leaveRequest = leaveRequestRepository.findById(id)
                 .filter(lr -> !lr.isDeleted())
                 .orElseThrow(() -> new ResourceNotFoundException("Leave request not found"));
@@ -102,6 +122,7 @@ public class LeaveRequestServiceImpl extends CommonService implements LeaveReque
         if (dto.getStartDate().isBefore(LocalDate.now())) {
             throw new BadRequestException("Cannot set leave to a past date");
         }
+
         if (dto.getStartDate().isAfter(dto.getEndDate())) {
             throw new BadRequestException("Start date cannot be after end date");
         }
@@ -109,13 +130,28 @@ public class LeaveRequestServiceImpl extends CommonService implements LeaveReque
         LeaveType leaveType = leaveTypeRepository.findById(dto.getLeaveTypeId())
                 .orElseThrow(() -> new ResourceNotFoundException("Leave type not found"));
 
-        long requestedDays = ChronoUnit.DAYS.between(dto.getStartDate(), dto.getEndDate()) + 1;
+        long requestedDays = ChronoUnit.DAYS.between(
+                dto.getStartDate(),
+                dto.getEndDate()
+        ) + 1;
+
         if (requestedDays > leaveRequest.getEmployee().getLeaveBalance()) {
             throw new BadRequestException("Insufficient leave balance");
         }
 
+        if (requestedDays > leaveType.getMaxDays()) {
+            throw new BadRequestException(
+                    "Requested days exceed the maximum allowed for " + leaveType.getName()
+            );
+        }
+
         List<LeaveRequest> overlapping = leaveRequestRepository.findOverlappingExcludingId(
-                leaveRequest.getEmployee().getId(), id, dto.getStartDate(), dto.getEndDate());
+                leaveRequest.getEmployee().getId(),
+                id,
+                dto.getStartDate(),
+                dto.getEndDate()
+        );
+
         if (!overlapping.isEmpty()) {
             throw new BadRequestException("Overlapping leave request exists");
         }
@@ -124,9 +160,11 @@ public class LeaveRequestServiceImpl extends CommonService implements LeaveReque
         leaveRequest.setStartDate(dto.getStartDate());
         leaveRequest.setEndDate(dto.getEndDate());
         leaveRequest.setReason(dto.getReason());
+
         setAuditFields(leaveRequest, false);
 
         LeaveRequest updated = leaveRequestRepository.save(leaveRequest);
+
         return toResponseDto(updated);
     }
 
@@ -245,14 +283,30 @@ public class LeaveRequestServiceImpl extends CommonService implements LeaveReque
 
     @Transactional
     private LeaveRequestResponseDto toResponseDto(LeaveRequest leaveRequest) {
-        LeaveRequestResponseDto responseDto = modelMapper.map(leaveRequest, LeaveRequestResponseDto.class);
+        LeaveRequestResponseDto responseDto =
+                modelMapper.map(leaveRequest, LeaveRequestResponseDto.class);
+
         responseDto.setEmployeeId(leaveRequest.getEmployee().getId());
         responseDto.setLeaveTypeId(leaveRequest.getLeaveType().getId());
-        responseDto.setEmployeeName(leaveRequest.getEmployee().getUser().getName());
-        responseDto.setLeaveTypeName(leaveRequest.getLeaveType().getName());
+
+        responseDto.setEmployeeName(
+                leaveRequest.getEmployee().getUser().getName()
+        );
+
+        responseDto.setLeaveTypeName(
+                leaveRequest.getLeaveType().getName()
+        );
+
         if (leaveRequest.getApprovedBy() != null) {
-            responseDto.setApprovedByName(leaveRequest.getApprovedBy().getName());
+            responseDto.setApprovedById(
+                    leaveRequest.getApprovedBy().getId()
+            );
+
+            responseDto.setApprovedByName(
+                    leaveRequest.getApprovedBy().getName()
+            );
         }
+
         return responseDto;
     }
 

@@ -4,7 +4,7 @@ A Spring Boot REST API for managing employee leave requests, with role-based acc
 
 ## Tech Stack
 
-- **Backend:** Spring Boot 4.1.0, Java 17
+- **Backend:** Spring Boot 4.1.0, Java 22
 - **Database:** PostgreSQL
 - **Auth:** Spring Security + JWT (jjwt 0.11.5)
 - **ORM:** Spring Data JPA / Hibernate
@@ -14,7 +14,7 @@ A Spring Boot REST API for managing employee leave requests, with role-based acc
 
 ## Prerequisites
 
-- Java 17+
+- Java 22
 - PostgreSQL running locally
 - Maven (or use the included wrapper)
 

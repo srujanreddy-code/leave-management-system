@@ -1,9 +1,9 @@
-package com.ust.lms.employee;
+package com.ust.lms.controller;
 
-import com.ust.lms.common.BaseController;
 import com.ust.lms.common.PageResponseDto;
 import com.ust.lms.dto.EmployeeRequestDto;
 import com.ust.lms.dto.EmployeeResponseDto;
+import com.ust.lms.employee.EmployeeService;
 import com.ust.lms.security.SecurityUtils;
 import com.ust.lms.user.UserService;
 import jakarta.validation.Valid;

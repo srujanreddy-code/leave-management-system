@@ -1,5 +1,6 @@
-package com.ust.lms.auth;
+package com.ust.lms.controller;
 
+import com.ust.lms.auth.AuthService;
 import com.ust.lms.dto.AuthResponseDto;
 import com.ust.lms.dto.LoginRequestDto;
 import com.ust.lms.dto.UserRequestDto;

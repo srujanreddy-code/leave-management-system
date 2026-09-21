@@ -1,0 +1,20 @@
+package com.ust.lms.dto;
+
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ * Represents the request data used for user login.
+ */
+@Getter
+@Setter
+public class LoginRequestDto {
+    @NotBlank
+    @Email
+    private String email;
+
+    @NotBlank
+    private String password;
+}
